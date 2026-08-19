@@ -34,6 +34,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+  font-size: 17px;
   margin: 0;
   overflow-x: hidden;
 }
@@ -217,7 +218,7 @@ summary:focus-visible {
 
 .hero-description {
   color: var(--ink-soft);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.9;
   margin: 28px 0 30px;
   max-width: 540px;
@@ -575,7 +576,7 @@ summary:focus-visible {
 
 .section-intro {
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   margin: 0 0 3px;
   max-width: 290px;
@@ -631,7 +632,7 @@ summary:focus-visible {
 
 .step-tab-text { display: flex; flex: 1; flex-direction: column; gap: 5px; }
 .step-tab-text small { color: #9ba5b1; font-size: 10px; font-weight: 800; }
-.step-tab-text strong { font-size: 14px; font-weight: 900; }
+.step-tab-text strong { font-size: 15px; font-weight: 900; }
 .step-arrow { color: #aab4bf; font-size: 17px; }
 .step-tab.is-active .step-arrow { color: var(--blue); }
 
@@ -660,7 +661,7 @@ summary:focus-visible {
   width: 25px;
 }
 
-.step-tip p { color: #526285; font-size: 11px; line-height: 1.7; margin: 0; }
+.step-tip p { color: #526285; font-size: 12px; line-height: 1.7; margin: 0; }
 .step-tip strong { color: var(--ink); }
 
 .guide-card {
@@ -684,15 +685,15 @@ summary:focus-visible {
   margin: 30px 0 12px;
 }
 
-.guide-description { color: var(--ink-soft); font-size: 14px; line-height: 1.85; margin: 0; max-width: 620px; }
+.guide-description { color: var(--ink-soft); font-size: 15px; line-height: 1.85; margin: 0; max-width: 620px; }
 
 .point-list { border-top: 1px solid #edf0f2; margin-top: 27px; padding-top: 10px; }
-.point-item { align-items: center; border-bottom: 1px solid #edf0f2; color: var(--ink); display: flex; font-size: 13px; gap: 13px; padding: 13px 0; }
+.point-item { align-items: center; border-bottom: 1px solid #edf0f2; color: var(--ink); display: flex; font-size: 14px; gap: 13px; padding: 13px 0; }
 .point-check { align-items: center; background: var(--lime); border-radius: 50%; color: var(--ink); display: inline-flex; font-family: Arial, sans-serif; font-size: 10px; font-weight: 900; height: 20px; justify-content: center; width: 20px; }
 
 .guide-note { align-items: flex-start; background: #fff8e9; border-left: 3px solid var(--orange); display: flex; gap: 10px; margin-top: 24px; padding: 13px 15px; }
 .guide-note span { color: var(--orange); font-size: 14px; }
-.guide-note p { color: #7d654e; font-size: 11px; line-height: 1.7; margin: 0; }
+.guide-note p { color: #7d654e; font-size: 12px; line-height: 1.7; margin: 0; }
 
 .url-tools { gap: 15px; margin-top: 23px; }
 .url-tools .button { padding: 12px 17px; }
@@ -716,9 +717,9 @@ summary:focus-visible {
 .checklist-card { background: var(--ink); border-radius: 18px; color: #fff; display: grid; gap: 60px; grid-template-columns: 0.8fr 1.2fr; padding: 38px 43px; }
 .checklist-badge { color: var(--lime); display: block; font-size: 10px; margin-bottom: 42px; }
 .checklist-intro h3 { font-size: 23px; font-weight: 900; letter-spacing: -0.05em; margin: 0 0 9px; }
-.checklist-intro p { color: #9da9ba; font-size: 12px; line-height: 1.7; margin: 0; }
+.checklist-intro p { color: #9da9ba; font-size: 13px; line-height: 1.7; margin: 0; }
 .check-items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.check-item { align-items: center; background: rgba(255,255,255,0.06); border: 1px solid transparent; border-radius: 9px; color: #fff; cursor: pointer; display: flex; font-size: 11px; gap: 10px; min-height: 48px; padding: 10px 12px; text-align: left; transition: background 180ms ease, border-color 180ms ease; }
+.check-item { align-items: center; background: rgba(255,255,255,0.06); border: 1px solid transparent; border-radius: 9px; color: #fff; cursor: pointer; display: flex; font-size: 12px; gap: 10px; min-height: 48px; padding: 10px 12px; text-align: left; transition: background 180ms ease, border-color 180ms ease; }
 .check-item:last-child { grid-column: span 2; }
 .check-item:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.16); }
 .check-item.is-checked { background: rgba(216,243,110,0.12); color: var(--lime); }
@@ -729,12 +730,12 @@ summary:focus-visible {
 .faq-section { background: #edf1f4; display: grid; gap: 80px; grid-template-columns: 0.74fr 1.26fr; padding: 116px max(32px, calc((100vw - 1176px) / 2)); }
 .faq-heading h2 { font-size: clamp(36px, 4vw, 54px); }
 .faq-list details { border-bottom: 1px solid #cfd7df; padding: 0; }
-.faq-list summary { align-items: center; color: var(--ink); cursor: pointer; display: flex; font-size: 14px; font-weight: 900; gap: 15px; list-style: none; padding: 21px 0; }
+.faq-list summary { align-items: center; color: var(--ink); cursor: pointer; display: flex; font-size: 15px; font-weight: 900; gap: 15px; list-style: none; padding: 21px 0; }
 .faq-list summary::-webkit-details-marker { display: none; }
 .faq-list summary span { color: var(--blue); font-family: Arial, sans-serif; font-size: 10px; }
 .faq-list summary b { color: var(--blue); font-size: 19px; font-weight: 400; margin-left: auto; transition: transform 180ms ease; }
 .faq-list details[open] summary b { transform: rotate(45deg); }
-.faq-list p { color: var(--ink-soft); font-size: 12px; line-height: 1.8; margin: -4px 30px 21px; max-width: 610px; }
+.faq-list p { color: var(--ink-soft); font-size: 13px; line-height: 1.8; margin: -4px 30px 21px; max-width: 610px; }
 
 .final-cta { background: var(--blue); color: #fff; gap: 27px; justify-content: center; min-height: 285px; padding: 62px 32px; position: relative; }
 .final-cta-mark { background: var(--lime); border-radius: 15px; color: var(--ink); font-size: 24px; height: 68px; transform: rotate(-7deg); width: 68px; }
@@ -768,7 +769,7 @@ summary:focus-visible {
   .nav-cta { margin-left: auto; }
   .hero { min-height: auto; padding: 45px 20px 62px; }
   .hero h1 { font-size: 52px; }
-  .hero-description { font-size: 14px; }
+  .hero-description { font-size: 16px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; }
   .hero-meta { flex-wrap: wrap; gap: 9px; margin-top: 32px; }
   .meta-line { width: 10px; }
@@ -801,7 +802,7 @@ summary:focus-visible {
   .check-item:last-child { grid-column: auto; }
   .faq-section { padding: 76px 20px; }
   .faq-heading h2 { font-size: 42px; }
-  .faq-list summary { font-size: 13px; line-height: 1.45; }
+  .faq-list summary { font-size: 14px; line-height: 1.45; }
   .final-cta { align-items: flex-start; flex-direction: column; padding: 52px 25px; }
   .final-cta .button { margin-left: 0; margin-top: 8px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 12px; padding: 24px 20px; }
