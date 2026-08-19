@@ -33,7 +33,7 @@ jobs:
       - name: Build static site
         run: npm run build:github-pages
         env:
-          NEXT_PUBLIC_BASE_PATH: /\${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -46,7 +46,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: \${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
     steps:
